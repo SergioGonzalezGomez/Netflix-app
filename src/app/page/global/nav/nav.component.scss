@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    a {
+      margin-right: 10px;
+      padding: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #dc1a28;
+    }
+  
+    img {
+      padding: 10px;
+    }
+  
+    button {
+      padding: 0;
+      border: none;
+      border-radius: 4px;
+      font: inherit;
+      color: inherit;
+      background: inherit;
+      cursor: pointer;
+      padding: 8px;
+      margin-right: 10px;
+    }
+  }

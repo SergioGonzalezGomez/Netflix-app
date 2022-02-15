@@ -1,0 +1,10 @@
+<div class="hero">
+    <h2>{{ hero.title }}</h2>
+  
+    <ul class="hero-gallery">
+      <li *ngFor="let img of hero.imgGallery; let index = index">
+        <h3>{{ index+ 1 }}</h3>
+        <img src="{{ img.src }}" alt="{{ img.alt }}" />
+      </li>
+    </ul>
+  </div>

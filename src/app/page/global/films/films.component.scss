@@ -1,0 +1,17 @@
+.film {
+    margin-left: 10px;
+  
+    h2 {
+      padding: 6px;
+    }
+  
+    .film-gallery {
+      display: flex;
+      flex-direction: row;
+      img {
+        padding: 5px;
+        width: 300px;
+      }
+    }
+  }
+  

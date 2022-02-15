@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: "Roboto", sans-serif;
+    --text-color: rgb(31, 31, 31);
+    --background: whitesmoke;
+    --stroke: rgb(31, 31, 31);
+  }
+  
+  body.dark-theme {
+    --text-color: whitesmoke;
+    --background: rgb(31, 31, 31);
+    --stroke: #dc1a28;
+  }
+  //GLOBAL STYLES
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  body {
+    background: var(--background);
+    color: var(--text-color);
+    transition: background 1s ease-in-out, color 1s ease-in-out;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--background);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--text-color);
+    border-radius: 10px;
+    border: 2px solid black;
+  }

@@ -1,0 +1,30 @@
+.hero {
+    margin-left: 10px;
+  
+    h2 {
+      padding: 6px;
+    }
+  
+    .hero-gallery {
+      display: flex;
+      flex-direction: row;
+  
+      li{
+        display:flex;
+        align-items:center;
+  
+        h3{
+          color: var(--background);
+          font-size: 24.1rem;
+          text-shadow: -3px -3px 0 var(--stroke), 3px -3px 0 var(--stroke), -3px 3px 0 var(--stroke), 3px 3px 0 var(--stroke);
+          margin-right: -90px;
+        }
+      }
+  
+      img {
+        padding: 5px;
+        width: 200px;
+        z-index: 1;
+      }
+    }
+  }
