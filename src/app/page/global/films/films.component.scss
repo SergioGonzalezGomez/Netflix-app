@@ -1,17 +1,40 @@
 .film {
-    margin-left: 10px;
   
+
+  h2 {
+    padding: 6px;
+  }
+
+  .film-gallery {
+    display: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+
+    img {
+      padding: 5px;
+      width: 300px;
+    }
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .film {
+    margin-left: 10px;
+
     h2 {
       padding: 6px;
     }
-  
+
     .film-gallery {
       display: flex;
       flex-direction: row;
+      flex-wrap: nowrap;
+
       img {
         padding: 5px;
         width: 300px;
       }
     }
   }
-  
+}
